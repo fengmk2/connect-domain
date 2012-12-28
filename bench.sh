@@ -3,6 +3,7 @@ if [ ! -d ./node_modules/connect ] ; then
   npm install connect
 fi
 
+node -v
 node benchmark.js &
 
 sleep 1
